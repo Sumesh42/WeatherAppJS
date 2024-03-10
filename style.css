@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-color: hsla(0, 0%, 0%, 0.870);
+    font-family: monospace;
+
+}
+#card{
+    border: 1px solid white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 300px;
+    margin: 100px auto 0;
+    border: none;
+    text-align: center;
+    background-image: linear-gradient(to right top, #009efa, #00a9fd, #00b3fe, #00bdfe, #00c6fe, #00cefe, #00d6fc, #00ddfa, #00e5f6, #0eedf0, #32f4e8, #4ffbdf); 
+}
+#form-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#search-area{
+    border-radius: 30px;
+    padding: 0 15px;
+    width: 70%;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: hsla(0, 0%, 0%, 0.723);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.411);
+}
+#search-btn{
+    border: none;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    background-color: hsla(158, 75%, 19%, 0.527);
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.411);
+}
+#search-btn:hover{
+    background-color: hsla(134, 100%, 59%, 0.774);
+}
+#weather-icon{
+    font-size: 3em;
+    color: lightcyan;
+    text-shadow: 2px 2px 5px black;
+    
+}
+#temperature, #city-name{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 20px 0 0;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.738);
+}
+#other-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+.fa-icon{
+    font-size: 2.3em;
+    margin-right: 5px;
+    color: hsla(0, 0%, 0%, 0.56);
+}
+.col{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+#wind-speed, #humidity{
+    font-size: 1.5em;
+}
+.col p{
+    margin: 0;
+    color: hsla(0, 0%, 0%, 0.56);
+}
