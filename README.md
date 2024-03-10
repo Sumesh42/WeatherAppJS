@@ -1,3 +1,4 @@
 # WeatherAppJS
 weather app
-created a new branch
+
+2nd commit
