@@ -77,6 +77,7 @@ body{
 }
 .fa-magnifying-glass{
     font-size: 1em;
+    text-align: center;
 }
 .col{
     display: flex;
